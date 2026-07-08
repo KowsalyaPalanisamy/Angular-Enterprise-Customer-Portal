@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import { NgFor } from '@angular/common';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-customer-list',
-  imports: [NgFor],
+  imports: [NgFor, RouterLink],
   templateUrl: './customer-list.html',
   styleUrl: './customer-list.css',
 })
